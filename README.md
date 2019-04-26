@@ -234,3 +234,66 @@ Date:   Fri Apr 26 18:50:16 2019 +0900
 
     version 1
 ```
+
+## add(commit 대기상태 = stage area) - commit
+***git은 commit 전에 add를 꼭해야 합니다. ***
+```
+Hyosuns-MacBook-Pro:gitfth hyosunkim$ cp f1.text f2.text
+
+Hyosuns-MacBook-Pro:gitfth hyosunkim$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	f2.text
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Hyosuns-MacBook-Pro:gitfth hyosunkim$ git add f2.text
+
+Hyosuns-MacBook-Pro:gitfth hyosunkim$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   f2.text
+
+
+```
+cp: 새로운 파일이 복사(copy)되는 명령어 <br>
+cp - git status - git add - git status - git commit <br>
+
+```
+version 3
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Changes to be committed:
+#       new file:   f2.text
+#
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+:wq
+```
+[i] - 새로운 수정사항(version 2.)을 입력 -[esc] - :wq <br>
+
+```
+Hyosuns-MacBook-Pro:gitfth hyosunkim$ vim f1.text
+Hyosuns-MacBook-Pro:gitfth hyosunkim$ vim f2.text
+```
+각자의 파일에 수정사항을 입력하고, f1.text만 [git add]를 한다면<br>
+[git commit]을 했을때 f2.text는 변경사항이 저장되지 않는다. ***(선택적 commit)*** <br>
