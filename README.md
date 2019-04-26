@@ -65,8 +65,8 @@ Hyosuns-MacBook-Pro:gitfth hyosunkim$  vim f1.text
   wq
   
 ```
-vim f1.text: fi.text라는 파일을 만들라는 명령어
-<i> : 키보드 i버튼을 눌러서 INSERT가 가능하게 만들자
-esc : 타이핑이 되지 않는 상태로 만든다
-<:> : 키보드 :버튼을 눌러서 명령어를 쓸수 있도록 한다
-wq : write quite 저장하고 끝낸다는 명령어
+vim f1.text: fi.text라는 파일을 만들라는 명령어 <br>
+<i> : 키보드 i버튼을 눌러서 INSERT가 가능하게 만들자 <br>
+esc : 타이핑이 되지 않는 상태로 만든다 <br>
+<:> : 키보드 :버튼을 눌러서 명령어를 쓸수 있도록 한다 <br>
+wq : write quite 저장하고 끝낸다는 명령어 <br>
