@@ -182,9 +182,9 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
-vim f1.text
-[i] - 새로운 수정사항(source code:2)을 입력 - [esc] - :wq
-git status: fi.text가 modified되었다는 사실을 알 수 있다. 
+vim f1.text <br>
+[i] - 새로운 수정사항(source code:2)을 입력 - [esc] - :wq <br>
+git status: fi.text가 modified되었다는 사실을 알 수 있다.  <br>
 
 ```
 Hyosuns-MacBook-Pro:gitfth hyosunkim$ git add f1.text
