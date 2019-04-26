@@ -1,4 +1,4 @@
-# FastWeb
+## Install GIT
 
 ```
 Hyosuns-MacBook-Pro:~ hyosunkim$ cd Documents
